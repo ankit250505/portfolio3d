@@ -36,7 +36,7 @@ function App() {
 
     if (isReload) {
       // Get path without hash
-      const baseUrl = window.location.origin + "/portofolio/";
+      const baseUrl = window.location.origin + "/";
       window.location.replace(baseUrl);
     }
   }, []);
